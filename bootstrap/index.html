@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap est utilisé dans cette page.</h1>
+        <p>Ceci est un texte</p>
+    </div>
+    <div class="container-fluid">
+        <h1>Bootstrap est utilisé dans cette page.</h1>
+        <p>Ceci est un texte</p>
+    </div>
+    <div class="container pt-5 border" ></div>
+    <div class="container p-5 my-5 border bg-success"></div>
+    <div class="container p-5 my-5 bg-dark text-white">Bonsoir</div>
+    <div class="container p-5 my-5 bg-primary text-dark">Bonsoir</div>
+  <!-- Contrôlez la largeur des colonnes et comment elles doivent apparaître sur différents appareils -->
+  <div class="row">
+     <div class="col-sm-3">.col-sm-3</div>
+     <div class="col-sm-3">.col-sm-3</div>
+     <div class="col-sm-3">.col-sm-3</div>
+     <div class="col-sm-3">.col-sm-3</div>
+ </div><br>
+ <!-- Ou laissez Bootstrap gérer automatiquement la mise en page -->
+ <div class="row">
+    <div class="col-sm-4">.col-sm-4</div>
+    <div class="col-sm-8">.col-sm-8</div>
+    </div><br>
+    <p class="h1">h1 Bootstrap heading</p>
+    <p class="h2">h2 Bootstrap heading</p>
+    <p class="h3">h3 Bootstrap heading</p>
+    <p class="h4">h4 Bootstrap heading</p>
+    <p class="h5">h5 Bootstrap heading</p>
+    <p class="h6">h6 Bootstrap heading</p>
+    <div class="container mt-3">
+        <h1>Abbreviations</h1>
+        <p>L'élément abbr est utilisé pour baliser une abréviation ou un acronyme :</p>
+        <p>Le <abbr title="Java Script">JS</abbr> est un langage de programmation</p>
+    </div>
+    <div class="conteneur mt-3">
+        <h2>Couleurs contextuelles</h2>
+        <p class="text-muted">Ce texte est coupé.</p>
+        <p class="text-primary">Ce texte est important.</p>
+        <p class="text-success">Ce texte indique le succès.</p>
+        <p class="text-info">Ce texte représente une information.</p>
+        <p class="text-warning">Ce texte représente un avertissement.</p>
+        <p class="text-danger">Ce texte représente un danger.</p>
+        <p class="text-secondaire">Texte secondaire.</p>
+        <p class="text-dark">Ce texte est gris foncé.</p>
+        <p class="text-body">Couleur du corps par défaut (souvent noir).</p>
+        <p class="text-light">Ce texte est en gris clair (sur fond blanc).</p>
+        <p class="text-white">Ce texte est blanc (sur fond blanc).</p>
+    </div>
+    <div class="conteneur mt-3">
+        <h2>Arrière-plans contextuels</h2>
+        <p>Ajouter une classe .text-* pour une couleur de texte différente :</p>
+        <p class="bg-primary text-white">Ce texte est important.</p>
+        <p class="bg-success text-white">Ce texte indique le succès.</p>
+        <p class="bg-info text-white">Ce texte représente une information.</p>
+        <p class="bg-warning text-white">Ce texte représente un avertissement.</p>
+        <p class="bg-danger text-white">Ce texte représente un danger.</p>
+        <p class="bg- Secondary text-dark">Couleur d'arrière-plan secondaire.</p>
+        <p class="bg-dark text-white">Couleur de fond gris foncé.</p>
+        <p class="bg-light text-dark">Couleur de fond gris clair.</p>
+    </div><br><br>
+    <table class="table  table-striped">
+        <thead>
+        <tr><th>Nom</th><th>Prénom</th><th>Age</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Mohamed</td><td>KINANI</td><td>25</td></tr>
+        <tr><td>Laila</td><td>SAFIR</td><td>23</td></tr>
+        <tr><td>Sami</td><td>MANSOURI</td><td>24</td></tr>
+        </tbody>
+    </table><br><br>
+    <table class="table  table-bordered">
+        <thead>
+        <tr><th>Nom</th><th>Prénom</th><th>Age</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Mohamed</td><td>KINANI</td><td>25</td></tr>
+        <tr><td>Laila</td><td>SAFIR</td><td>23</td></tr>
+        <tr><td>Sami</td><td>MANSOURI</td><td>24</td></tr>
+        </tbody>
+    </table><br><br>
+    <table class="table  table-hover">
+        <thead>
+        <tr><th>Nom</th><th>Prénom</th><th>Age</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Mohamed</td><td>KINANI</td><td>25</td></tr>
+        <tr><td>Laila</td><td>SAFIR</td><td>23</td></tr>
+        <tr><td>Sami</td><td>MANSOURI</td><td>24</td></tr>
+        </tbody>
+    </table><br><br>
+    <table class="table  table-dark table-striped">
+        <thead>
+        <tr><th>Nom</th><th>Prénom</th><th>Age</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>Mohamed</td><td>KINANI</td><td>25</td></tr>
+        <tr><td>Laila</td><td>SAFIR</td><td>23</td></tr>
+        <tr><td>Sami</td><td>MANSOURI</td><td>24</td></tr>
+        </tbody>
+    </table><br><br>
+    <table class="table bg-light ">
+        <thead>
+        <tr class="text-dark"><th>Nom</th><th>Prénom</th><th>Age</th></tr>
+        </thead>
+        <tbody>
+        <tr class="text-white bg-info"><td>Mohamed</td><td>KINANI</td><td>25</td></tr>
+        <tr class="text-dark bg-light"><td>Laila</td><td>SAFIR</td><td>23</td></tr>
+        <tr class="text-white bg-info"><td>Sami</td><td>MANSOURI</td><td>24</td></tr>
+        </tbody>
+    </table><br><br>
+    <div class="table-responsive">
+        <table class="table table-bordeless">
+        .<thead>
+            <tr><th>Nom</th><th>Prénom</th><th>Age</th></tr>
+            </thead>
+            <tbody>
+            <tr><td>Mohamed</td><td>KINANI</td><td>25</td></tr>
+            <tr><td>Laila</td><td>SAFIR</td><td>23</td></tr>
+            <tr><td>Sami</td><td>MANSOURI</td><td>24</td></tr>
+            </tbody>
+        </table>
+        </div><br><br>
+        <img src="monkey-d-luffy-one-piece.jpg" class="rounded" alt="anime-one-piece" width="420px" height="270px"><br>
+        <img src="demon-slayer-Tanjiro.webp" class="rounded-circle "alt="anime-one-piece" width="420px" height="270px"><br>
+        <img src="Yuji_Itadori.webp" class="rounded-thumbnail" alt="anime-one-piece" width="420px" height="270px"><br>
+        <img src="monkey-d-luffy-one-piece.jpg" class="float-start rounded-circle" alt="anime-one-piece" width="420px" height="270px"><br>
+        <img src="demon-slayer-Tanjiro.webp" class="float-end rounded-thumbnail" alt="anime-one-piece" width="420px" height="270px"><br><br>
+        <img src="Yuji_Itadori.webp" class="mx-auto d-block rounded" alt="anime-one-piece" width="420px" height="270px"><br><br>
+        <img src="monkey-d-luffy-one-piece.jpg" class="img-fluid" alt="anime-one-piece" width="420px" height="270px"><br><br>
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+            <label for="email" class="form-label">E-mail :</label>
+            <input type="email" class="form-control bg-info" id="email" placeholder="Entrez l'email" name="email">
+            </div>
+            <div class="mb-3">
+            <label for="pwd" class="form-label">Mot de passe :</label>
+            <input type="password" class="form-control bg-info" id="pwd" placeholder="Entez le mot de passe" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+            <label class="form-check-label text-danger">
+            <input class="form-check-input bg-info" type="checkbox" name="remember"> Se souvenir de moi</label>
+            </div>
+            <button type="submit" class="btn btn-success">Soumettre</button>
+            </form><br><br>
+            <form>
+                <div class="row">
+                <div class="col">
+                <input type="text" class="form-control bg-dark text-white" placeholder="Entrez l'email" name="email">
+                </div>
+                <div class="col">
+                <input type="password" class="form-control bg-dark text-white" placeholder="Entrer le mot de passe" name="pswd">
+                </div>
+                </div>
+            </form><br>
+            <input type="text" class="form-control form-control-lg bg-primary text-white" placeholder="Grande entrée"><br><br>
+            <input type="text" class="form-control bg-info text-white" placeholder="Entrée normale"><br><br>
+            <input type="text" class="form-control form-control-sm bg-danger text-white" placeholder="Petite entrée"><br><br>
+            <input type="text" class="form-control" placeholder="Entrée normale"><br><br>
+            <input type="text" class="form-control" placeholder="Entrée désactivée" disabled><br><br>
+            <input type="text" class="form-control" placeholder="Entrée en lecture seule" readonly><br><br>
+            <select class="form-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <select multiple class="form-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <select class="form-select form-select-lg">
+                <option>1</option>
+                </select>
+                <select class="form-select">
+                <option>1</option>
+                </select>
+                <select class="form-select form-select-sm">
+                <option>1</option>
+            </select><br>
+            <label for="browser" class="form-label">Choisissez votre navigateur dans la liste:</label>
+            <input class="form-control bg-warning" list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+        <form action="/action.php">
+            <div class="form-check form-switch">
+            <input class="form-check-input text-warning" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+            <label class="form-check-label text-warning" for="mySwitch">Mode sombre</label>
+            </div>
+        </form><br>
+        <form action="/action.php" class="was-validated">
+            <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">Nom d'utilisateur :</label>
+            <input type="text" class="form-control" id="uname" placeholder="Saisir le nom d'utilisateur"
+            name="uname" required>
+            <div class="valid-feedback">Valide.</div>
+            <div class="invalid-feedback">Merci de remplir ce champ.</div>
+            </div>
+            <div class="mb-3">
+            <label for="pwd" class="form-label">Mot de passe :</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Saisir le mot de passe"
+            name="pswd" required>
+            <div class="valid-feedback">Valide.</div>
+            <div class="invalid-feedback">Merci de remplir ce champ.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form><br><br>
+        <button type="button" class="btn">De base</button>
+        <button type="button" class="btn btn-primary">Primaire</button>
+        <button type="button" class="btn btn-secondary">Secondaire</button>
+        <button type="button" class="btn btn-success">Succès</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Avertissement</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Sombre</button>
+        <button type="button" class="btn btn-light">Léger</button>
+        <button type="button" class="btn btn-link">Relier</button>
+        <button type="button" class="btn btn-outline-primary">Primaire</button>
+        <button type="button" class="btn btn-outline-secondary">Secondaire</button>
+        <button type="button" class="btn btn-outline-success">Succès</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-warning">Avertissement</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-dark">Sombre</button>
+        <button type="button" class="btn btn-outline-light text-dark">Léger</button>
+
+            
+
+            
+                
+                
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+    
+     
+
+        
+</body>
+</html>

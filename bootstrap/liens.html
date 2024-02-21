@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liens</title>
+</head>
+<body>
+    <h2 class="text-danger">Barre de navigation standard</h2>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+        <!-- Liens -->
+        <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Link 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Link 3</a></li>
+        </ul>
+        </div>
+        </nav>
+
+
+        <h2 class="text-danger">Barre de navigation verticale</h2>
+        <nav class="navbar bg-light">
+            <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Lien 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Lien 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Lien 3</a></li>
+            </ul>
+        </nav>
+
+        <h2 class="text-danger">Barre de navigation centrée</h2>
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+         <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Lien 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Lien 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Lien 3</a></li>
+                </ul>
+        </nav>
+
+        <h2 class="text-danger">Barre de navigation colores</h2>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Lien1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Lien2</a></li>
+            <li class="nav-item"><a class="nav-link disabled" href="#">Desactivé</a></li>
+            </ul>
+        </nav>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">...</nav>
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark">...</nav>
+            <nav class="navbar navbar-expand-sm bg-success navbar-dark">...</nav>
+            <nav class="navbar navbar-expand-sm bg-info navbar-dark">...</nav>
+            <nav class="navbar navbar-expand-sm bg-warning navbar-dark">... </nav>
+            <nav class="navbar navbar-expand-sm bg-danger navbar-dark">...</nav>
+            <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">...</nav>
+
+
+       <h2 class="text-danger">Menu déroulant avec bouton simple</h2>
+       <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" ariaexpanded="false"> Menu déroulant <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+        <li><a href="#" title="Lien 1">Lien 1</a></li>
+        <li><a href="#" title="Lien 2">Lien 2</a></li>
+        <li><a href="#" title="Lien 3">Lien 3</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#" title="Lien 4">Lien 4</a></li>
+        </ul>
+        </div>
+
+        <h2 class="text-danger">Menu déroulant avec avec bouton divisé</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">Menu déroulant</button>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" ariaexpanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+            <li><a href="#" title="Lien 1">Lien 1</a></li>
+            <li><a href="#" title="Lien 2">Lien 2</a></li>
+            <li><a href="#" title="Lien 3">Lien 3</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#" title="Lien 4">Lien 4</a></li>
+            </ul>
+        </div>
+
+
+        <h2 class="text-danger">Les alertes</h2>
+        <div class="alert alert-success">
+            <strong> Succès!</strong> Indique une action réussie ou positive.
+        </div>
+        <div class="alert alert-primary">
+                <strong> Succès!</strong> Indique une action réussie ou positive.
+        </div>
+        <div class="alert alert-warning">
+            <strong> Succès!</strong> Indique une action réussie ou positive.
+        </div>
+
+        <h2 class="text-danger">Les liens d’alertes</h2>
+        <div class="alert alert-info">
+            <strong> Information!</strong> Vous deviez<a href="#" class="alert-link"> lire ce message</a>.
+            </div>
+            <div class="alert alert-warning">
+            <strong> Warning!</strong> Vous deviez<a href="#" class="alert-link"> lire ce message</a>.
+            </div>
+            <div class="alert alert-danger">
+            <strong> Danger!</strong> Vous deviez<a href="#" class="alert-link"> lire ce message</a>.
+        </div>
+
+        <h2 class="text-danger">Fermeture d’alertes</h2>
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Succès!</strong> Cette boite d'alerte peut indiquer une action réussie ou positive.
+        </div>
+
+
+        <h2 class="text-danger">Alertes animées</h2>
+        <div class="alert alert-danger alert-dismissible fade show"></div>
+
+
+        <h2 class="text-danger">Pagination</h2>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul>
+
+        <h2 class="text-danger">Pagination (état actif)</h2>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul> 
+
+        <h2 class="text-danger">Dimensionnement de la pagination</h2>
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul>
+        <ul class="pagination pagination-sm">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul> 
+
+        <h2 class="text-danger">Alignement de la pagination</h2>
+        <!-- Aligné à gauche (par défaut) -->
+        <ul class="pagination" style="margin :20px 0">
+         <li class="page-item">...</li>
+        </ul>
+        <!-- Centré -->
+        <ul class="pagination justify-content-center" style="margin :20px 0">
+            <li class="page-item">...</li>
+        </ul>
+       <!-- Aligné à droite -->
+    <ul class="pagination justify-content-end" style="margin :20px 0">
+        <li class="page-item">...</li>
+    </ul>
+    <h2 class="text-danger">Dimensionnement de la pagination</h2>
+
+
+
+
+            
+                   
+            
+
+
+            
+    
+
+            
+</body>
+</html>
